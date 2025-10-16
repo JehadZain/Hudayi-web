@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'PNU';
+  font-weight: 400;
+  font-style: normal;
+  src: local('PNU'), url('PNU-Regular.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PNU';
+  font-weight: 500;
+  font-style: normal;
+  src: local('PNU'), url('PNU-Medium.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PNU';
+  font-weight: 500;
+  font-style: normal;
+  src: local('PNU'), url('PNU-Light.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PNU';
+  font-weight: 700;
+  font-style: normal;
+  src: local('PNU'), url('PNU-Bold.ttf') format('opentype');
+}

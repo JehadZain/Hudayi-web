@@ -1,0 +1,20 @@
+ if (!totalCounts.mosqueCount) {
+        setTotalCounts((prevCounts) => ({
+          ...prevCounts,
+          mosqueCount: properties?.hints?.mosque_total || prevCounts.mosqueCount,
+        }));
+      }
+
+      if (!totalCounts.schoolCount) {
+        setTotalCounts((prevCounts) => ({
+          ...prevCounts,
+          schoolCount: properties?.hints?.school_total || prevCounts.schoolCount,
+        }));
+      }
+
+      if (!totalCounts.propertiesCount) {
+        setTotalCounts((prevCounts) => ({
+          ...prevCounts,
+          propertiesCount: properties?.hints?.total || prevCounts.propertiesCount,
+        }));
+      }
